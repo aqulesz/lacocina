@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Mexcellent;
+    src: url('./assets/Mexcellent 3d.otf') format("opentype");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('./assets/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+  font-family: Popins;
+  src: url('./assets/Poppins-SemiBold.ttf');
+}
+
+@theme {
+    --font-logo:"Mexcellent", "sans-serif";
+    --font-default: "OpenSans", "sans-serif";
+    --font-hero: "Popins", "sans-serif";
+    --color-custom-red: #FB0102;
+}
