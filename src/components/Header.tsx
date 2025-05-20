@@ -5,7 +5,7 @@ import NavLink from "./Navlink";
 function Header() {
     const [toggle, setToggle] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(true);
 
 
     function handleToggle() {
@@ -44,7 +44,7 @@ function Header() {
     },[scrollPosition])
 
     return (
-             <nav className="fixed top-0 left-0 w-full py-4 backdrop-blur-lg z-2">
+             <nav className={`fixed top-0 left-0 w-full py-4 backdrop-blur-lg z-2 ${isVisible ? "translate-y-0" : "translate-y-200" } ${scrollPosition > 50 ? "bg-neutral-700/10" : "bg-neutral-700/10"} `}>
                 <div className="flex flex-col justify-between gap-5 transition-transform duration-300 sm:flex-row md:justify-start md:gap-15 lg:justify-between lg:items-center">
                     <div className="flex justify-between">
                         <div className="logo p-1 pr-3 bg-white rounded-r-lg flex flex-col">
@@ -58,7 +58,7 @@ function Header() {
                         </button>        
                     </div>
                     {toggle && (
-                            <div className="flex flex-col mt-5 pl-4 gap-5 sm:gap-8 sm:flex-row sm:justify-between sm:mt-0 sm:items-center sm:pr-30 lg:gap-15 lg:p-0 ">
+                            <div className="flex flex-col mt-5 pl-4 gap-5 sm:gap-8 sm:flex-row sm:justify-between sm:mt-0 sm:items-center sm:pr-30 lg:gap-15 lg:p-0">
                                 <NavLink url="#">Inicio</NavLink>
                                 <NavLink url="#">Nosotros</NavLink>
                                 <NavLink url="#">Nuestras clases</NavLink>
@@ -66,7 +66,7 @@ function Header() {
                             </div>                      
                         )}
                     {toggle && (
-                        <button className="text-white font-default font-normal bg-custom-red py-2 px-9 rounded-lg lg:text-sm lg:mr-4">Inscribite ya</button>                          
+                        <button className="text-white font-default font-normal bg-custom-red py-2 px-9 rounded-lg lg:text-sm lg:mr-4 ">Inscribite ya</button>                          
                         )}
                     
                 </div>
