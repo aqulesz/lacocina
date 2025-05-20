@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react";
-import useMediaQuery from "../hooks/useMediaQuery";
+import useMediaQuery from "../../hooks/useMediaQuery";
 import NavLink from "./Navlink";
 import Logo from "./Logo";
 
