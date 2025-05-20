@@ -12,17 +12,17 @@ function Header() {
         setToggle(!toggle);
     }
 
-    const isTablet = useMediaQuery({ query: '(min-width: 640px)' });
+    const isDesktop = useMediaQuery({ query: '(min-width: 800px)' });
 
-    const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 800px)' });
 
     useEffect(() => {
-        if (isTablet) {
+        if (isDesktop) {
             setToggle(true);
         } else if (isMobile) {
             setToggle(false);
         }
-    }, [isTablet, isMobile]);
+    }, [isDesktop, isMobile]);
 
     useEffect(() => {
         const handleScroll = () => {
