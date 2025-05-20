@@ -57,13 +57,13 @@ function Header() {
                             </svg>
                         </button>        
                     </div>
-                    <div className={`${toggle ? "max-h-40 mt-5" : "max-h-0 invisible"} flex flex-col pl-4 gap-5 sm:gap-8 sm:flex-row sm:justify-between sm:mt-0 sm:items-center sm:pr-30 lg:gap-15 lg:p-0 text-sm sm:hidden overflow-hidden transition-all ease-in-out`}>
+                    <div className={`${isMobile && `${toggle ? "max-h-40 mt-5" : "max-h-0 invisible"}`} flex flex-col pl-4 gap-5 sm:gap-8 sm:flex-row sm:justify-between sm:mt-0 sm:items-center sm:pr-30 lg:gap-15 lg:p-0 text-sm overflow-hidden transition-all ease-in-out`}>
                                 <NavLink url="#">Inicio</NavLink>
                                 <NavLink url="#">Nosotros</NavLink>
                                 <NavLink url="#">Nuestras clases</NavLink>
                                 <NavLink url="#">Contactanos</NavLink>
                     </div>                      
-                    <button className={`${toggle ? "max-h-40 text-white font-default font-normal bg-custom-red py-2 px-9 rounded-lg lg:text-sm lg:mr-4" : "max-h-0 invisible"}`}>Inscribite ya</button>                 
+                    <button className={`${toggle ? "max-h-40 text-white font-default font-normal bg-custom-red py-2 px-9 rounded-lg w-2/3 self-center lg:text-sm lg:mr-4" : "max-h-0 invisible"}`}>Inscribite ya</button>                 
                 </div>
             </nav>
     )
