@@ -6,7 +6,7 @@ function PrincipalHero() {
                 <h1 className="text-5xl font-hero font-bold tracking-tight text-white sm:text-7xl lg:text-8xl text-center lg:mb-5">
                     <span className="text-custom-red block" >Saca el artista</span> que hay en vos
                 </h1>   
-                <p className="text-white font-default font-normal sm:text-xl lg:text-xl" >Todo en un espacio donde la pasión por el arte se respira.</p>
+                <p className="text-white font-default font-normal text-center sm:text-xl lg:text-xl" >Todo en un espacio donde la pasión por el arte se respira.</p>
             </div>
         </div>
     )
