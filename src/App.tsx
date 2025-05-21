@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import PrincipalHero from './components/PrincipalHero'
-import DescriptionSection from './components/AboutSection'
+import AboutSection from './components/AboutSection'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <PrincipalHero />
-      <DescriptionSection /> 
+      <AboutSection /> 
     </>
   )
 }
