@@ -49,7 +49,7 @@ function Header() {
                 <div className={`flex flex-col justify-between transition-transform duration-300 ${toggle && "gap-5"} md:flex-row md:gap-15 md:items-center md:justify-between `}>
                     <div className="flex justify-between">
                         <Logo />
-                        <button className={`text-custom-red ${isDesktop && "hidden"}`} onClick={handleToggle}>
+                        <button className={`text-white ${isDesktop && "hidden"}`} onClick={handleToggle}>
                             <svg className="w-6 h-6 fill-current mr-4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
                                 <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"></path>
                             </svg>
