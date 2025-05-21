@@ -1,4 +1,4 @@
-function DescriptionSection() {
+function AboutSection() {
     return (
         <div className="bg-black w-full h-dvh flex justify-center py-15">
             <div className="w-2/3">
@@ -9,4 +9,4 @@ function DescriptionSection() {
     )
 }
 
-export default DescriptionSection;
+export default AboutSection;
