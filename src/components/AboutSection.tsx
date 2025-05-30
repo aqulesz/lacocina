@@ -19,7 +19,11 @@ function AboutSection() {
                     <img src={Violinimg} alt="" className="hidden h-48 w-96 object-cover md:block rounded-2xl saturate-0 hover:saturate-100 hover:transition-all md:col-start-2 md:row-start-2 md:row-end-3 md:self-center"/>  
                 <div className="md:row-start-3 md:col-start-3 md:place-self-center md:col-end-5 lg:px-10">
                     <h3 className="pl-8 text-white font-hero font-bold text-2xl text-center mb-5 sm:text-4xl sm:pl-20 md:col-start-2 md:pl-0">¿Quienes somos?</h3>
-                    <p className="pl-8 text-gray-300 text-lg font-default font-light text-center mb-5 sm:pl-20 md:col-start-2 md:pl-0"></p>
+                    <p className="pl-8 text-gray-300 text-lg font-default font-light text-center mb-5 sm:pl-20 md:col-start-2 md:pl-0"><span className="text-bold">Somos músicos. </span> 
+                    Vivimos, enseñamos y compartimos la música desde la experiencia y la pasión.
+                    Además de músicos, somos docentes y creadores comprometidos con la formación artística.
+                    En La Cocina, acompañamos tu camino con un enfoque humano, creativo y profesional.
+</p>
                 </div>
         </div>
     )
