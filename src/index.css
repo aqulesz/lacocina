@@ -21,3 +21,7 @@
     --font-hero: "Popins", "sans-serif";
     --color-custom-red: #FB0102;
 }
+
+body {
+  background-color: black;
+}

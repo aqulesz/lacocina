@@ -5,7 +5,7 @@ import Violinimg from "../assets/clarissa-watson-kG-UNTwqyso-unsplash.webp";
 
 function AboutSection() {
     return (
-        <div className="bg-black bg-blend-overlay bg-cover bg-center w-full flex flex-col justify-center p-8  pl-0 pt-0 sm:p-20 sm:pl-0 sm:pt-0 md:p-0 md:pb-10 md:grid md:grid-cols-4 md:gap-4 lg:gap-5 lg:h-svh ">
+        <div className="bg-black bg-blend-overlay bg-cover bg-center w-full flex flex-col justify-center p-8  pl-0 pt-0 sm:p-20 sm:pl-0 sm:pt-0 md:p-0 md:mb-10 md:grid md:grid-cols-4 md:gap-4 lg:gap-5 ">
                 <h2 className="text-2xl text-left text-custom-red font-hero p-2 mb-5 sm:text-4xl md:col-start-1 md:col-end-3 lg:text-5xl lg:mb-0" >SOBRE NOSOTROS</h2>
                 <div className="md:row-start-2 md:col-start-3 md:col-end-5 md:place-self-center lg:px-10 ">
                     <h3 className=" bg-white text-black font-hero font-bold text-2xl text-center mb-5 rounded-r-lg pl-8 sm:text-4xl sm:pl-20 md:pl-0 md:text-white md:bg-transparent">¿Qué es <span className="font-logo block sm:inline text-black md:text-white"> la cocina ?</span> </h3>
