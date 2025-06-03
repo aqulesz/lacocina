@@ -4,7 +4,7 @@ import PianoImg from "../assets/clases/martin-hexeberg-jp0VExvkRzY-unsplash.webp
 import Cantoimg from "../assets/clases/elizeu-dias-aZ3qiq1eTRk-unsplash.webp"
 import Violinimg from "../assets/clases/caglar-oskay-1e7IF27F_kU-unsplash.webp"
 import Drumsimg from "../assets/clases/aliane-schwartzhaupt-QdmUva6qBTk-unsplash.webp"
-import Folcloreimg from "../assets/clases/folclore.webp"
+import Folcloreimg from "../assets/clases/2019-una-fo-raices-nortenas-1.webp"
 import Bajoimg from "../assets/clases/krisztian-reischl-5OlBfj3Qgak-unsplash.webp"
 import HSimg from "../assets/clases/home-hero-sonar.B3AsyLtN.webp"
 
