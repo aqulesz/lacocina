@@ -1,6 +1,6 @@
 function ContactSection() {
     return (
-        <div className="bg-black w-full flex flex-col p-8 pl-0 pt-0 mb-10 sm:p-20 sm:pl-0 sm:pt-0 md:p-0 md:grid md:grid-cols-3">
+        <div id="contact" className="bg-black w-full flex flex-col p-8 pl-0 pt-0 mb-10 sm:p-20 sm:pl-0 sm:pt-0 md:p-0 md:grid md:grid-cols-3">
                 <h2 className="text-3xl text-left text-custom-red font-hero pt-2 mb-5 sm:text-4xl md:col-span-3 lg:text-5xl lg:mb-15" >CONTACTANOS</h2>
                 <div className="pl-8 mb-10 self-center md:p-8 md:pr-0  md:self-start ">
                     <h3 className=" text-white font-hero font-bold text-2xl mb-5 md:text-4xl">Aprende ya!</h3>

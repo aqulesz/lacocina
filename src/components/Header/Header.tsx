@@ -56,12 +56,12 @@ function Header() {
                         </button>        
                     </div>
                     <div className={`${isMobile && `${toggle ? "max-h-40 mt-5" : "max-h-0 invisible"}`} flex flex-col pl-4 gap-5 sm:gap-8 sm:flex-row sm:justify-between sm:mt-0 sm:items-center sm:pr-30 md:pr-0 lg:gap-15 text-sm overflow-hidden transition-all ease-in-out`}>
-                                <NavLink url="#">Inicio</NavLink>
-                                <NavLink url="#">Nosotros</NavLink>
-                                <NavLink url="#">Nuestras clases</NavLink>
-                                <NavLink url="#">Contactanos</NavLink>
+                                <NavLink url="#home">Inicio</NavLink>
+                                <NavLink url="#about">Nosotros</NavLink>
+                                <NavLink url="#clases">Nuestras clases</NavLink>
+                                <NavLink url="#contact">Contactanos</NavLink>
                     </div>                      
-                    <button className={`${toggle ? "max-h-40 text-white font-default font-normal bg-custom-red py-2 rounded-lg self-center w-2/4 md:w-1/6 md:text-xs md:mr-4 lg:text-sm lg:w-1/7" : "max-h-0 invisible"}`}>Inscribite ya</button>                 
+                    <a href="https://api.whatsapp.com/send/?phone=543512457260&text&type=phone_number&app_absent=0" className={`${toggle ? "max-h-40 text-white font-default font-normal bg-custom-red py-2 rounded-lg self-center text-center w-2/4 md:w-1/6 md:text-xs md:mr-4 lg:text-sm lg:w-1/7" : "max-h-0 invisible"}`}>Inscribite ya</a>             
                 </div>
             </nav>
     )

@@ -22,6 +22,10 @@
     --color-custom-red: #FB0102;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
 }

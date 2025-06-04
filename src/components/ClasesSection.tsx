@@ -10,7 +10,7 @@ import HSimg from "../assets/clases/home-hero-sonar.B3AsyLtN.webp"
 
 function ClasesSection() {
     return (
-        <div className="bg-black bg-blend-overlay bg-cover bg-center w-full flex flex-col items-center justify-center p-8  pl-0 pt-0 sm:p-8 sm:pl-0 sm:pt-0 md:p-0 md:pr-8 md:pb-10">
+        <div id="clases" className="bg-black bg-blend-overlay bg-cover bg-center w-full flex flex-col items-center justify-center p-8  pl-0 pt-0 sm:p-8 sm:pl-0 sm:pt-0 md:p-0 md:pr-8 md:pb-10">
                 <h2 className="text-3xl text-left self-start text-custom-red font-hero pt-2 mb-5 sm:text-4xl md:col-start-1 md:col-end-3 lg:text-5xl lg:mb-10" >NUESTRAS CLASES</h2>
                 <div className="pl-8 flex flex-col gap-5 sm:grid sm:grid-cols-2 md:grid-cols-3 md:items-stretch lg:grid-cols-4">
                     <CardClase title="Teclado y Piano" img={PianoImg} text="Para principiantes, trabajamos técnica, lectura musical y fundamentos clave. Para niveles avanzados, exploramos la improvisación y un repertorio personalizado. Desarrollá tu oído musical con un enfoque dinámico, práctico y adaptado a vos." />
