@@ -13,8 +13,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'La Cocina, Formación y Producción Artística - Academia',
+  title: 'La Cocina Formación y Producción Artística - Academia en Córdoba',
   description: 'Academia de música en Córdoba Capital. Clases de guitarra, piano, canto, folclore, violín, bajo, batería y grabación digital en home studio.',
+  keywords: [
+    'academia de música en Córdoba',
+    'formación musical Córdoba',
+    'escuela de música en Córdoba',
+    'producción musical en Córdoba',
+    'cursos de música en Córdoba',
+    'córdoba',
+    'guitarra',
+    'clases de guitarra Córdoba',
+    'canto',
+    'clases de canto Córdoba',
+    'piano',
+    'clases de piano Córdoba',
+    'teclado',
+    'clases de teclado Córdoba',
+    'batería',
+    'clases de bateria Córdoba',
+    'violín',
+    'clases de violin Córdoba',
+    'bajo',
+    'clases de bajo Córdoba',
+    'home studio',
+    'clases de home studio Córdoba',
+    'grabación en home studio',
+    'formación musical',
+    'producción artística',
+    'aprender música desde cero',
+    'talleres musicales Córdoba',
+    'clases presenciales de música'
+  ],
   icons: [
     {
       rel: 'icon',
@@ -34,6 +64,27 @@ export const metadata: Metadata = {
       url: '/src/app/apple-touch-icon.png',
     },
   ],
+  openGraph: {
+    title: 'La Cocina - Formación y Producción Artística en Córdoba',
+    description: 'Academia de música en Córdoba Capital. Clases de guitarra, piano, canto, batería, violín, bajo y grabación en home studio.',
+    url: 'https://academialacocina.com',
+    siteName: 'La Cocina',
+    images: [
+      {
+        url: 'https://academialacocina.com/preview.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'es_AR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'La Cocina - Formación y Producción Artística en Córdoba',
+    description: 'Academia de música en Córdoba Capital. Clases de guitarra, piano, canto, batería, violín, bajo y grabación en home studio.',
+    images: ['https://academialacocina.com/preview.jpg'],
+  },
 };
 
 export default function RootLayout({
