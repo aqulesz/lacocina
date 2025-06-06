@@ -16,10 +16,10 @@ function AboutSection() {
                     Aquí, el aprendizaje y la creación se dan la mano, guiados por artistas y docentes con trayectoria y pasión.</p>
                 </article>
                 <div className="pl-8 col-start-1 col-end-3 row-start-2 row-end-4 grid grid-cols-1 md:grid-cols-2 gap-0">
-                    <Image src={Guitarimg} alt="" className="mb-5 md:h-full col-start-1 row-start-1 md:object-cover md:col-start-1 md:row-start-2 md:my-0 md:row-end-3"/>
-                    <Image src={Drumimg} alt="" className="hidden md:h-full md:block md:col-start-1 md:row-start-3 md:row-end-4"/>
-                    <Image src={Pianoimg} alt="" className="hidden md:h-full object-cover  md:block  md:col-start-2 md:row-start-3 md:row-end-4"/>
-                    <Image src={Violinimg} alt="" className="hidden md:h-full object-cover md:block  md:col-start-2 md:row-start-2 md:row-end-3"/> 
+                    <Image src={Guitarimg} alt="Guitarra" className="mb-5 md:h-full col-start-1 row-start-1 md:object-cover md:col-start-1 md:row-start-2 md:my-0 md:row-end-3"/>
+                    <Image src={Drumimg} alt="Bateria" className="hidden md:h-full md:block md:col-start-1 md:row-start-3 md:row-end-4"/>
+                    <Image src={Pianoimg} alt="Piano" className="hidden md:h-full object-cover  md:block  md:col-start-2 md:row-start-3 md:row-end-4"/>
+                    <Image src={Violinimg} alt="Violin" className="hidden md:h-full object-cover md:block  md:col-start-2 md:row-start-2 md:row-end-3"/> 
                 </div>                     
                 <article className="md:row-start-3 md:col-start-3 md:place-self-center md:col-end-5 lg:px-10">
                     <h3 className="pl-8 text-white font-hero font-bold text-2xl text-center mb-5 sm:text-4xl sm:pl-20 md:col-start-2 md:pl-0">¿Quienes somos?</h3>

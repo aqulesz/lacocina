@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'La Cocina Formación y Producción Artística - Academia en Córdoba',
+  title: 'Academia La Cocina Formación y Producción Artística',
   description: 'Academia de música en Córdoba Capital. Clases de guitarra, piano, canto, folclore, violín, bajo, batería y grabación digital en home studio.',
   keywords: [
     'academia de música en Córdoba',
