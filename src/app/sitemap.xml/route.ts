@@ -6,7 +6,7 @@ export async function GET() {
   const baseUrl = 'https://academialacocina.com';
 
   const pages = [
-    'https://academialacocina.com',
+    '',
   ];
 
   const urls = pages
