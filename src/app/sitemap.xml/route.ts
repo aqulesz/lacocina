@@ -4,9 +4,10 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   const baseUrl = 'https://academialacocina.com';
+  const baseUrl1 = 'http://academialacocina.com';
 
   const pages = [
-    '',
+    '/',
   ];
 
   const urls = pages
@@ -14,6 +15,12 @@ export async function GET() {
       return `
         <url>
           <loc>${baseUrl}/${path}</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>1.0</priority>
+        </url>
+        <url>
+          <loc>${baseUrl1}/${path}</loc>
           <lastmod>${new Date().toISOString()}</lastmod>
           <changefreq>monthly</changefreq>
           <priority>1.0</priority>
