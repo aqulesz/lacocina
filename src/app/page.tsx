@@ -3,6 +3,7 @@ import PrincipalHero from './components/PrincipalHero'
 import AboutSection from './components/AboutSection'
 import ClasesSection from './components/ClasesSection'
 import ContactSection from './components/ContactSection'
+import FooterSection from './components/FooterSection'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <AboutSection />
     <ClasesSection />
     <ContactSection />
+    <FooterSection />
   </>
   );
 }
